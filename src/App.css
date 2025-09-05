@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.leaflet-container {
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  /* Optional: justify-content: center; for horizontal centering */
+  height: 100vh; /* Example: set a height for the container */
+  /* height: 70vh;
+  width: 50%;
+  margin: auto; */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
